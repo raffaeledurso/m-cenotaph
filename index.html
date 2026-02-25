@@ -1234,6 +1234,30 @@
             <span><span>CLASSIFICATION</span><span class="val">RESTRICTED — LEVEL 1</span></span>
           </div>
           <div class="file-access-bar"></div>
+          <audio id="player-001" preload="none">
+  <source src="audio/file_001_vacuum-sealed.mp3" type="audio/mpeg" />
+</audio>
+<button
+  onclick="document.getElementById('player-001').paused
+    ? document.getElementById('player-001').play()
+    : document.getElementById('player-001').pause()"
+  class="btn-ghost"
+  style="margin-top:1.4rem; cursor:pointer; border:none; background:none; font-family:var(--font-mono); font-size:0.6rem; letter-spacing:0.18em; color:var(--ghost); text-transform:uppercase; padding-bottom:2px; border-bottom:1px solid var(--border);"
+>
+  ▶ PLAY FILE_001
+</button>
+          <audio id="player-002" preload="none">
+  <source src="audio/file_002_sweet-descent.mp3" type="audio/mpeg" />
+</audio>
+<button
+  onclick="document.getElementById('player-001').paused
+    ? document.getElementById('player-001').play()
+    : document.getElementById('player-001').pause()"
+  class="btn-ghost"
+  style="margin-top:1.4rem; cursor:pointer; border:none; background:none; font-family:var(--font-mono); font-size:0.6rem; letter-spacing:0.18em; color:var(--ghost); text-transform:uppercase; padding-bottom:2px; border-bottom:1px solid var(--border);"
+>
+  ▶ PLAY FILE_002
+</button>
         </article>
 
         <!-- ARCHIVE_LOG -->
